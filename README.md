@@ -3,15 +3,19 @@ web API RESTful Spring Boot
 L'exercice a été traité en java
 
 nécessite MySQL local avec une BDD nommée "wesave" créée,
-modifier application.properties (user/mdp)
+modifier src/main/ressources/application.properties pour infos de connexion de votre serveur MySQL (user/mdp)
 
 Les 5 exercices sont traités par l'API,
 une fois déployée chaque exercice est accessible à un url :
 
 http://localhost:5000/level1/input
+
 http://localhost:5000/level2/input
+
 http://localhost:5000/level3/input
+
 http://localhost:5000/level4/input
+
 http://localhost:5000/level5/input
 
 L'envoi d'un input au format json dans une requête http POST à chaque url entraîne une réponse contenant le json attendu en output pour l'exercice considéré
